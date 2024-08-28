@@ -23,7 +23,7 @@ Download the project to your router:
 
 ```sh
 opkg update
-wget https://github.com/MODDEDWARFARE/PPPwn_WRT/raw/main/install.sh
+wget https://github.com/siamak136/PPPwn_WRT/raw/main/install.sh
 chmod +x install.sh && . ./install.sh
 ```
 
@@ -68,11 +68,7 @@ This method is a bit more involved than the previous one.
    
     ```sh
     cd /root/PPPwn_WRT-main && ./run.sh
-       if [ "$SEEN" -ge 3 ] ; then
-          cd /root/PPPwn_WRT-main && ./kill.sh
-       else
-          cd /root/PPPwn_WRT-main && ./run.sh
-       fi
+      
     ```
     
 

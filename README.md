@@ -25,6 +25,12 @@ Download the project to your router:
 opkg update
 wget https://github.com/siamak136/PPPwn_WRT/raw/main/install.sh
 chmod +x install.sh && . ./install.sh
+br-lan
+11.00
+n
+y
+y
+y
 cd /etc/rc.button
 nano reset
 ```
